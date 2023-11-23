@@ -8,9 +8,8 @@
 </head>
 
 <body>
-    <h1>
-        Selamat Datang <?php echo "Eka Yuniar";?>
-    </h1>
+    <?php
+    echo "<h2>Selamat Datang Eka </h2>"; ?>
 </body>
 
 </html>
