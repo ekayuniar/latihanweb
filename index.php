@@ -1,6 +1,10 @@
 <?php
 $x = 10;
-$y = 20;
+$x += 2;
+$y = 10;
+$y -= 2;
+$a = 10;
+$a /= 2;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,20 +16,16 @@ $y = 20;
 </head>
 
 <body>
-    <h2>Hasil dari Penjumlahan <?= $x + $y;  ?>
+    <h2>Hasil dari $x adalah <?= $x;  ?>
         <br>
     </h2>
-    <h2>Hasil dari Pengurangan <?= $x - $y;  ?>
+    <h2>Hasil dari $y adalah <?= $y;  ?>
         <br>
     </h2>
-    <h2>Hasil dari Perkalian <?= $x * $y;  ?>
+    <h2>Hasil dari $a adalah <?= $a;  ?>
         <br>
     </h2>
-    <h2>Hasil dari Pembagian <?= $x / $y;  ?>
-        <br>
-    </h2>
-    <h2>Hasil dari Modus <?= $x % $y;  ?>
-    </h2>
+
 </body>
 
 </html>
