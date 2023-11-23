@@ -1,3 +1,6 @@
+<?php
+$nama = "Yuniar";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,8 +11,11 @@
 </head>
 
 <body>
-    <?php
-    echo "<h2>Selamat Datang Eka </h2>"; ?>
+    <h1> Selamat Datang
+        <?php
+        echo $nama;
+        ?>
+    </h1>
 </body>
 
 </html>
