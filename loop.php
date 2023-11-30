@@ -1,8 +1,9 @@
 <?php
-echo "<h2>Perulangan Do While</h2>";
-
-$i = 1;
-do {
-    echo "Hello World $i <br>";
-    $i++;
-} while ($i < 5);
+$x = 20;
+if ($x < 20) {
+    echo "Benar";
+} elseif ($x !== 20) {
+    echo "Binggo";
+} else {
+    echo "Salah";
+}
